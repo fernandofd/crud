@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+  
+    height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient(circle, #000306 0%,blue 100%); 
+   
+  }
+
+h1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    margin: 0;
+    padding: 1%;
+}
+.ipi{
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: right;
+}
+
+div{
+    margin-top: 30px;
+    align-items: center;
+    text-align: left;
+    
+    
+}
+h2,a,img{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    text-align: left;
+    padding-left: 100px;
+}
+.log{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.login{
+    text-align: left;
+   
+}
+
+.user,.senha{
+    color: white;
+}
+input{
+    margin-left: 20px;
+    background-color: rgb(216, 216, 245); 
+}
